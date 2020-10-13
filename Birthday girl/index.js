@@ -77,7 +77,7 @@ window.onload = function(){
     Swal.fire({
         icon: 'success',
         title: 'Welcome',
-        html: 'Happy BIRTHDAY SALU DI',
+        html: 'Happy BIRTHDAY MANVITHA',
         footer: '&copy All rights reserved !'
     });
     
@@ -88,12 +88,12 @@ window.onload = function(){
     
     /type writer effect logic --------------------/
     var _CONTENT = [ 
-        "Hay There Salu Di", 
-        "kaisi hain ? 😌", 
-        "Mast hi hongi.", 
+        "Hay There Manvitha", 
+        "kaisi ho ? 😌", 
+        "Mast hi hogi.", 
         "Acha Wait !",
         "Wish you a very very happy birthday",
-        "Gaana nahi batai tum",
+        "Song nahi batai tum",
         "ye mai apne man se daal diya",
         "ab isko dekh lo",
         "upper left me teen line",
