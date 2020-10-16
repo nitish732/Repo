@@ -1,0 +1,70 @@
+body{
+	background-image: linear-gradient(#ddd6f3,#faaca8);
+  background-color:#ebf5f5;
+  animation: bgcolor 15s infinite
+  }
+.container{
+  display : flex;
+  flex-wrap : wrap;
+  justify-content : center;
+}
+img{
+  width : 450px;
+  height : 350px;
+  margin : 5px;
+  transition : all 2s;
+  box-shadow : 8px 8px 8px #883885;
+}
+img:hover{
+  transform : rotate(360deg);
+  border: solid;
+  box-shadow: 10px 10px 5px #ccc;
+  border-radius:45px 15px 45px;
+  border:2px solid #fff;
+  width: 300px;
+  height: 380px;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 1;
+}
+
+h1{
+   font-size: 50px; 
+   font-family: "League Gothic", Impact, sans-serif;
+    animation: color-change 2s infinite;
+    text-align: center;
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: black; }
+  }
+  #a{
+
+  animation: exam 2s infinite ;
+border:2px SOLID blue;
+margin:2px;
+text-align:center;
+ width: 250px;
+  height: 40px;
+  background: green;
+  transition: width 2s, height 2s, transform 2s;
+}@keyframes exam {
+  from {background-color: blue;}
+  to {background-color: pink;}
+}
+
+#a:hover {
+  width: 450px;
+  height: 90px;
+  transform: rotate(20deg);
+}
+
+  .c
+  {
+  	border: 5px outset pink;
+    background-color: lightblue;
+    text-align: center;
+    width:400px;
+    margin:auto;
+  }
